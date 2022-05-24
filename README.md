@@ -22,7 +22,8 @@ Note: Windows "Photos" software can be used to convert from .mov to .mp4.
 &nbsp;&nbsp;sudo npm install --global giflossy  # Install giflossy globally
 
 2. Mandatory Variable(s):
-Then use a text editor to set the variable 'targetPath' on line 3 of gifCreate.sh to the absolute path of the directory of .mp4s to be converted.
+Then use a text editor to set the variable 'targetPath' on line 3 of gifCreate.sh to the 
+absolute path of the directory of .mp4s to be converted.
 
 3. Run:
 &nbsp;&nbsp;bash gifCreate.sh
