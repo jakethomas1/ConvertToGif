@@ -26,6 +26,7 @@ Then use a text editor to set the variable 'targetPath' on line 3 of gifCreate.s
 absolute path of the directory of .mp4s to be converted.
 
 3. Run:
+Use the following command in your command prompt:
 &nbsp;&nbsp;bash gifCreate.sh
 
 Output:
