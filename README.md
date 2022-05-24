@@ -1,7 +1,7 @@
 # gifCreate
 
-gifCreate is a bash script which uses ffmpeg and giflossy to mass convert all .mp4 files in a given folder to .gif files. 
-Mainly used to convert screen recorded mobile videos (.mov) to .gifs. 
+gifCreate is a bash script which uses ffmpeg and giflossy to mass convert all .mp4 files in a given folder to .gif files. \n
+Mainly used to convert screen recorded mobile videos (.mov) to .gifs. \n
 Note: Windows "Photos" software can be used to convert from .mov to .mp4.
 
 <pre>
