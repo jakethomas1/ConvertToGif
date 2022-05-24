@@ -1,6 +1,6 @@
 #!/bin/bash
 
-targetPath="/mnt/c/Users/jacob.thomas/Pictures/scriptTarget/"
+targetPath="/mnt/c/Users/first.last/Documents/scriptTarget/"
 frameDelayPct=1     #.7-1
 frameRate=12        #10-24
 scale=.5            #.5-1
