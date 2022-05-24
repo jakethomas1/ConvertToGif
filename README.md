@@ -18,7 +18,7 @@ Note: Windows "Photos" software can be used to convert from .mov to .mp4.
 &nbsp;&nbsp;sudo apt install nodejs             # Install nodejs
 &nbsp;&nbsp;sudo apt install npm                # Install node package manager (npm)
 &nbsp;&nbsp;sudo npm install -g n               # Install n (a node version manager) globally
-&nbsp;&nbsp;sudo n 7                            # Install and use v7.10.1
+&nbsp;&nbsp;sudo n                              # Install and use
 &nbsp;&nbsp;sudo npm install --global giflossy  # Install giflossy globally
 
 2. Mandatory Variable(s):
