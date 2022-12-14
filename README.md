@@ -1,10 +1,15 @@
 # gifCreate
 
-gifCreate is a bash script which uses ffmpeg and giflossy to mass convert all .mp4 files in a given folder to optimized .gif files.
+gifCreate.sh is a bash script which uses ffmpeg and giflossy to mass convert all .mp4 files in a given folder to optimized .gif files.
+<br/>
 
-Mainly used to convert screen recorded mobile videos (.mov to .gif), but may have other applications. 
+*Note: VLC can be used to convert videos to .mp4. <br/>*
+https://www.videolan.org/vlc/
 
-Note that Windows "Photos" software can be used to convert from .mov to .mp4.
+*Note: If using WSL (Windows Subsystem for Linux), it needs to be version 2. <br/>*
+https://learn.microsoft.com/en-us/windows/wsl/install#upgrade-version-from-wsl-1-to-wsl-2
+
+*Note: These instructions are tailored for Ubuntu.*
 
 <pre>
 <h3> Instructions: </h3>
@@ -22,8 +27,8 @@ Note that Windows "Photos" software can be used to convert from .mov to .mp4.
 &nbsp;&nbsp;sudo npm install --global giflossy  # Install giflossy globally
 
 2. Mandatory Variable(s):
-Then use a text editor to set the variable 'targetPath' on line 3 of gifCreate.sh to the 
-absolute path of the directory of .mp4s to be converted.
+Then use a text editor to set the variable 'targetPath' on line 3 of gifCreate.sh to the
+absolute path of the directory of .mp4s to be converted, including an ending '/'.
 
 3. Run:
 Use the following command in your command prompt:
@@ -41,5 +46,4 @@ Console output will include logging from ffmpeg and giflossy.
 &nbsp;&nbsp;&nbsp;&nbsp;0 <= lossiness <= 160
 &nbsp;&nbsp;&nbsp;&nbsp;0 <= compressionLevel <= 100
 
-Note: These instructions are tailored for Ubuntu.
 </pre>
